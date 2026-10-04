@@ -9,21 +9,6 @@ The objective was to identify rules generating high volumes of false-positive al
 The analysis was built using the synthetic SAML-D transaction monitoring dataset and PostgreSQL, with Power BI used to present the findings.
 
 
-## Dataset
-
-This project uses the synthetic SAML-D AML transaction dataset.
-
-Original dataset:
-[SAML-D Synthetic Transaction Monitoring Dataset](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
-
-The dataset contains approximately:
-
-- 9.5 million transactions
-- 292,000+ sender accounts
-- 652,000+ receiver accounts
-- 9,873 laundering-labelled transactions
-
-
 ## Business Problem
 
 Transaction monitoring teams can generate large volumes of alerts that require manual analyst review.
@@ -47,7 +32,10 @@ This project focuses on three questions:
 
 ## Dataset
 
-The project uses the synthetic SAML-D AML transaction dataset.
+This project uses the synthetic SAML-D AML transaction dataset.
+
+Original dataset:
+[SAML-D Synthetic Transaction Monitoring Dataset](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
 
 The dataset contains approximately:
 
@@ -55,7 +43,6 @@ The dataset contains approximately:
 - 292,000+ sender accounts
 - 652,000+ receiver accounts
 - 9,873 laundering-labelled transactions
-- Multiple payment types and AML typologies
 
 The laundering-labelled transactions represent approximately 0.10% of the overall transaction population.
 
