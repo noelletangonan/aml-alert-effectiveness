@@ -109,21 +109,6 @@ A stronger approach would be to retain the existing threshold while testing addi
 - Changes from normal account behaviour
 
 
-## Dashboard
-
-### Executive Overview
-
-![Executive Overview](screenshots/executive_overview.png)
-
-### Rule Effectiveness
-
-![Rule Effectiveness](screenshots/rule_effectiveness.png)
-
-### Rule Tuning
-
-![Rule Tuning](screenshots/rule_tuning.png)
-
-
 ## Limitations
 
 - The project uses synthetic AML data.
