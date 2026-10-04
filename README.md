@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project analyses the effectiveness of simulated AML transaction-monitoring rules using SQL and Power BI.
+This project analyses the effectiveness of simulated AML transaction monitoring rules using SQL and Power BI.
 
 The objective was to identify rules generating high volumes of false-positive alerts, estimate the resulting analyst workload, and test whether rule thresholds could be adjusted to reduce unnecessary reviews without materially reducing detection coverage.
 
-The analysis was built using the synthetic SAML-D transaction-monitoring dataset and PostgreSQL, with Power BI used to present the findings.
+The analysis was built using the synthetic SAML-D transaction monitoring dataset and PostgreSQL, with Power BI used to present the findings.
 
 
 ## Business Problem
 
-Transaction-monitoring teams can generate large volumes of alerts that require manual analyst review.
+Transaction monitoring teams can generate large volumes of alerts that require manual analyst review.
 
 If monitoring rules are too broad, analysts may spend significant time reviewing legitimate activity while only a small proportion of alerts result in meaningful detections.
 
@@ -47,7 +47,7 @@ The laundering-labelled transactions represent approximately 0.10% of the overal
 
 ## Monitoring Rules
 
-Four simulated transaction-monitoring rules were created:
+Four simulated transaction monitoring rules were created:
 
 1. High-Value Cross-Border
 2. High-Value Cash Deposit
