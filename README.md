@@ -109,7 +109,7 @@ A better approach would be to keep the existing threshold and test additional ri
 - A sudden increase in cross-border activity
 - Transactions involving different sending and receiving currencies
 
-These factors could help reduce false positives without relying only on a higher transaction-value threshold.
+These factors could help reduce false positives without relying only on a higher transaction value threshold.
 
 
 ## Limitations
