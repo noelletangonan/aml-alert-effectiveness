@@ -98,15 +98,18 @@ However, 44 true-positive detections were lost.
 
 Threshold-only tuning is not recommended.
 
-Increasing the cross-border threshold substantially reduced workload, but also reduced detection coverage by around 20%.
+Increasing the cross-border threshold reduced alert volume by around 45%, but also reduced detection coverage by around 20%.
 
-A stronger approach would be to retain the existing threshold while testing additional behavioural or risk indicators such as:
+A better approach would be to keep the existing threshold and test additional risk factors to make the rule more targeted, such as:
 
-- Transaction frequency
-- Multiple beneficiaries
-- Repeated cross-border activity
-- Currency differences
-- Changes from normal account behaviour
+- Destination or origin country risk
+- Repeated cross-border transfers within a short period
+- Multiple overseas beneficiaries
+- Unusual transaction value compared with the account's normal activity
+- A sudden increase in cross-border activity
+- Transactions involving different sending and receiving currencies
+
+These factors could help reduce false positives without relying only on a higher transaction-value threshold.
 
 
 ## Limitations
