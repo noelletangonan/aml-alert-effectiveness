@@ -60,6 +60,7 @@ Rule thresholds were chosen based on transaction patterns found during the initi
 ## Rule Effectiveness
 
 | Rule | Total Alerts | True Positives | False Positives | False Positive Rate | Alert Yield | Alerts per True Positive |
+|---|---:|---:|---:|---:|---:|---:|
 | High Daily Transaction Velocity | 13,062 | 5 | 13,057 | 99.96% | 0.04% | 2,612 |
 | High-Value Cash Deposit | 11,386 | 312 | 11,074 | 97.26% | 2.74% | 36 |
 | High-Value Cash Withdrawal | 14,299 | 65 | 14,234 | 99.55% | 0.45% | 220 |
@@ -112,15 +113,15 @@ A stronger approach would be to retain the existing threshold while testing addi
 
 ### Executive Overview
 
-![Executive Overview](<Executive Overview.PNG>)
+![Executive Overview](screenshots/executive_overview.png)
 
 ### Rule Effectiveness
 
-![Rule Effectiveness](<Rule Effectiveness.PNG>)
+![Rule Effectiveness](screenshots/rule_effectiveness.png)
 
 ### Rule Tuning
 
-![Rule Tuning](<Rule Tuning.PNG>)
+![Rule Tuning](screenshots/rule_tuning.png)
 
 
 ## Limitations
